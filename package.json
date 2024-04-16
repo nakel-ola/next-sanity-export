@@ -1,0 +1,53 @@
+{
+  "name": "next-sanity-export",
+  "version": "0.0.1",
+  "description": "Sanity export content as csv",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "sanity",
+    "sanity.io",
+    "next.js",
+    "studio",
+    "studio-v3",
+    "live",
+    "preview",
+    "export",
+    "csv"
+  ],
+  "homepage": "https://github.com/nakel-dev/next-sanity-export#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nakel-dev/next-sanity-export.git",
+    "directory": "."
+  },
+  "author": "Olamileken",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/json2csv": "^5.0.7",
+    "@types/node": "^20.12.7",
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18.2.79",
+    "next": "14.2.1",
+    "postcss": "^8.4.38",
+    "react": "18.2.0",
+    "tailwindcss": "^3.4.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "json2csv": "6.0.0-alpha.2",
+    "react-spinners": "^0.13.8",
+    "tailwind-merge": "^2.2.2"
+  },
+  "engines": {
+    "node": ">=20.12.2"
+  }
+}
