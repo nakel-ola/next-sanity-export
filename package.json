@@ -44,6 +44,7 @@
   "dependencies": {
     "clsx": "^2.1.0",
     "json2csv": "6.0.0-alpha.2",
+    "papaparse": "^5.4.1",
     "react-spinners": "^0.13.8",
     "tailwind-merge": "^2.2.2"
   },
