@@ -59,10 +59,7 @@ export const ExportButton = (props: Props) => {
         const csvParse = await parseCSV(csvText);
 
         onFetch({
-          fields: csvParse.fields.map((key) => ({
-            name: key,
-            selected: true,
-          })),
+          fields: csvParse.fields.map((key) => ({ name: key, selected: true })),
           csvText,
           json: csvParse.results,
         });
