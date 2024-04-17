@@ -1,5 +1,12 @@
 # next-sanity-export
 
+## 1.0.7
+
+### Patch Changes
+
+- 23dd3fd: pnpm lock updated
+- bcc76e8: tsconfig updated
+
 ## 1.0.6
 
 ### Patch Changes
