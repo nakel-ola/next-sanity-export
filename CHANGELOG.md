@@ -1,5 +1,12 @@
 # next-sanity-export
 
+## 1.0.1
+
+### Patch Changes
+
+- e2735a5: update public workflow
+- b57b53f: changed version
+
 ## 1.0.0
 
 ### Major Changes
