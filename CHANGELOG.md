@@ -1,5 +1,11 @@
 # next-sanity-export
 
+## 1.0.6
+
+### Patch Changes
+
+- 85f97b6: fix package json exports
+
 ## 1.0.5
 
 ### Patch Changes
