@@ -1,6 +1,6 @@
 {
   "name": "next-sanity-export",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Sanity export content as csv",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
