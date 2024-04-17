@@ -1,5 +1,5 @@
 {
-  "name": "@nakel/next-sanity-export",
+  "name": "next-sanity-export",
   "version": "1.0.3",
   "description": "Sanity export content as csv",
   "main": "dist/index.js",
