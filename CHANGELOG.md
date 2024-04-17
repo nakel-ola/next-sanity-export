@@ -1,5 +1,12 @@
 # next-sanity-export
 
+## 1.0.5
+
+### Patch Changes
+
+- ef46647: Added export to package.json
+- 505d78a: Updated pnpm lock
+
 ## 1.0.4
 
 ### Patch Changes
