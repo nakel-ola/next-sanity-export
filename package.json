@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "release": "pnpm run build && changeset publish",
+    "release": "pnpm run build && changeset publish && pnpm publish",
     "lint": "tsc"
   },
   "keywords": [
@@ -21,10 +21,10 @@
     "export",
     "csv"
   ],
-  "homepage": "https://github.com/nakel-dev/next-sanity-export#readme",
+  "homepage": "https://github.com/nakel-ola/next-sanity-export#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nakel-dev/next-sanity-export.git",
+    "url": "git+ssh://git@github.com/nakel-ola/next-sanity-export.git",
     "directory": "."
   },
   "author": "Olamileken",
