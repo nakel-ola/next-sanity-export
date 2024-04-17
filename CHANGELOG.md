@@ -1,5 +1,11 @@
 # next-sanity-export
 
+## 1.0.2
+
+### Patch Changes
+
+- fcd6211: added a new script to run
+
 ## 1.0.1
 
 ### Patch Changes
