@@ -21,6 +21,13 @@
     "export",
     "csv"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "homepage": "https://github.com/nakel-ola/next-sanity-export#readme",
   "repository": {
     "type": "git",
@@ -35,9 +42,9 @@
     "@types/node": "^20.12.7",
     "@types/papaparse": "^5.3.14",
     "@types/react": "^18.2.79",
-    "next": "14.2.1",
+    "next": "^14",
     "postcss": "^8.4.38",
-    "react": "18.2.0",
+    "react": "^18",
     "tailwindcss": "^3.4.3",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
@@ -50,7 +57,7 @@
     "tailwind-merge": "^2.2.2"
   },
   "engines": {
-    "node": ">=20.12.2"
+    "node": ">=20"
   },
   "bugs": {
     "url": "https://github.com/nakel-ola/next-sanity-export/issues"
