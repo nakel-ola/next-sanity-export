@@ -40,13 +40,13 @@ importers:
         specifier: ^18.2.79
         version: 18.2.79
       next:
-        specifier: 14.2.1
+        specifier: ^14
         version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
       postcss:
         specifier: ^8.4.38
         version: 8.4.38
       react:
-        specifier: 18.2.0
+        specifier: ^18
         version: 18.2.0
       tailwindcss:
         specifier: ^3.4.3
